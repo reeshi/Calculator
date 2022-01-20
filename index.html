@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="title">
+            Calculator
+        </div>
+        <div id="txt-area">
+            <p id="display"></p>
+        </div>
+        <div id="keypad">
+            <div class="flex border-top">
+                <div class="col-box button" data-value="AC">AC</div>
+                <div class="col-box button" data-value = "+/-">+/-</div>
+                <div class="col-box button" data-value = "%">%</div>
+                <div class="col-box operators button" data-value = "/">/</div>
+            </div>
+            <div class="flex border-top">
+                <div class="col-box button" data-value = "7">7</div>
+                <div class="col-box button" data-value = "8">8</div>
+                <div class="col-box button" data-value = "9">9</div>
+                <div class="col-box operators button" data-value = "*">*</div>
+            </div>
+            <div class="flex border-top">
+                <div class="col-box button" data-value = "4">4</div>
+                <div class="col-box button" data-value = "5">5</div>
+                <div class="col-box button" data-value = "6">6</div>
+                <div class="col-box operators button" data-value = "-">-</div>
+            </div>
+            <div class="flex border-top">
+                <div class="col-box button" data-value = "1">1</div>
+                <div class="col-box button" data-value = "2">2</div>
+                <div class="col-box button" data-value = "3">3</div>
+                <div class="col-box operators button" data-value = "+">+</div>
+            </div>
+            <div class="flex border-top">
+                <div class="zero-btn button" data-value = "0">0</div>
+                <div class="col-box button" data-value = ".">.</div>
+                <div class="col-box operators button" data-value = "=">=</div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
